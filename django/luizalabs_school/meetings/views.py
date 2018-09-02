@@ -1,6 +1,6 @@
 from rest_framework.viewsets import ModelViewSet
-from core.api.meetings.serializers import RoomSerializer
-from core.meetings.models import Room
+from luizalabs_school.meetings.serializers import RoomSerializer
+from luizalabs_school.meetings.models import Room
 
 
 class RoomViewSet(ModelViewSet):

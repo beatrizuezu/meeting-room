@@ -2,7 +2,7 @@ from rest_framework import routers
 from django.conf.urls import include
 from django.urls import path
 
-from core.api.meetings.views import RoomViewSet
+from luizalabs_school.meetings.views import RoomViewSet
 
 
 router = routers.DefaultRouter()

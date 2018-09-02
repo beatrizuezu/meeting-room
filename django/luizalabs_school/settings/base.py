@@ -16,7 +16,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'core.meetings'
+    'luizalabs_school.meetings'
 ]
 
 MIDDLEWARE = [
@@ -29,7 +29,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'core.urls'
+ROOT_URLCONF = 'luizalabs_school.urls'
 
 TEMPLATES = [
     {
@@ -47,7 +47,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'core.wsgi.application'
+WSGI_APPLICATION = 'luizalabs_school.wsgi.application'
 
 DATABASES = {
     'default': {

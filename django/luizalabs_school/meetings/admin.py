@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from core.meetings.models import Room
+from luizalabs_school.meetings.models import Room
 
 
 admin.site.register(Room)

@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from core.meetings.models import Room
+from luizalabs_school.meetings.models import Room
 
 
 class RoomSerializer(serializers.ModelSerializer):

@@ -1,4 +1,4 @@
-from settings.base import *
+from luizalabs_school.settings.base import *
 
 
 DATABASES = {
