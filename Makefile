@@ -1,5 +1,5 @@
-MANAGE_PY = python manage.py
-SETTINGS_DEV = --settings=settings.development
+MANAGE_PY = python django/manage.py
+SETTINGS_DEV = --settings=luizalabs_school.settings.development
 
 check:clean
 	$(MANAGE_PY) check $(SETTINGS_DEV)
