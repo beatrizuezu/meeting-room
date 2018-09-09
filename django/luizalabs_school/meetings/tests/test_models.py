@@ -2,6 +2,7 @@ import pytest
 from model_mommy import mommy
 from luizalabs_school.meetings.models import Room
 
+
 @pytest.mark.django_db
 class TestRoomModels(object):
     def test_shoul_assert_attributes(self):
