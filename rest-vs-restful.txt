@@ -1,0 +1,34 @@
+REST - Representational State Transfer
+Estilo arquitetural que define um conjunto de restrições para ser usado para
+criação de web services.
+
+RESTful - Quando a API atender todas as restrições do REST, podemos considerar
+uma API RESTful
+
+Restrições
+- Client–server architecture
+    Separar as responsabilidades de diferentes partes do sistema
+
+- Stateless
+    cada requisição contem as informações necessarias para atender a solicitação,
+
+- Cache
+    as informações podem ser armazenadas em Cache
+
+- Layered system
+    o client não pode dizer se está ou nao conectado diretamente ao servidor
+
+- Uniform interface
+    essa restrição simplifica e separa a arquitetura, o que permite que
+    cada parte evolua de forma independente. Levando em consideração quatro
+    componentes:
+
+    - identificação de recurso na requisição (HTML,XML, JSON)
+    - manipulaçao do recurso atraves das representações (modificar ou excluir
+    o recurso.)
+    - mensagens auto descritivas
+    - hipermidia como mecanismo de estado
+
+- Code on demand (optional)
+    Os servidores podem estender ou personalizar temporariamente a 
+    funcionalidade de um cliente, transferindo o código executável
