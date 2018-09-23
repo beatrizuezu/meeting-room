@@ -7,4 +7,4 @@ class RoomSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Room
-        fields = ('name', 'is_available')
+        fields = '__all__'
