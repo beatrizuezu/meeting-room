@@ -24,3 +24,6 @@ run:
 
 shell:
 	$(MANAGE_PY) shell $(SETTINGS_DEV)
+
+test:
+	pytest -x django/luizalabs_school
